@@ -18,7 +18,7 @@ html, body{
 body{
     display: grid;
     place-items: center;
-    background: url(images/Desktop.svg);
+    background: url(images/Desktop.svg) no-repeat top;
     
     
     
@@ -115,7 +115,7 @@ ul {
 
 @media (min-width: 960px){
     
-    main {background: url(images/crachaLilas.svg) no-repeat center/cover;
+    main {background: url(images/crachaLilas.svg) no-repeat center;
         margin-top: -98px;
         width: 100vw;
         min-height: 600px;
