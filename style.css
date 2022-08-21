@@ -115,7 +115,7 @@ ul {
 
 @media (min-width: 960px){
     
-    main {background: url(images/crachaLilas.svg) no-repeat center;
+    main {background: url(images/crachaLilas.svg) no-repeat center/cover;
         margin-top: -98px;
         width: 100vw;
         min-height: 600px;
