@@ -1,4 +1,7 @@
-
+@keyframes animacao {
+    from{transform: translateY(2rem) rotate(0deg);}
+    to{transform: translateY(2rem) rotate(360deg);}
+}
 
 * {
     margin: 0;
@@ -18,9 +21,7 @@ html, body{
 body{
     display: grid;
     place-items: center;
-    background: url(images/Desktop.svg) no-repeat top;
-    
-    
+    background: url(images/Desktop.svg) no-repeat top     
     
 
 
@@ -54,8 +55,12 @@ main{
 .avatar > span {
         position: absolute;
         top: -15px;
+        margin-right: 10px;
         z-index: 1; /*move a camada*/
-     
+        animation-name: animacao;
+        animation-duration: ;
+        animation: animacao infinite 24s linear;
+
 
     }
 .avatar > img {
@@ -108,14 +113,16 @@ ul {
     padding: 0;
 
     display: flex;
-    gap: 0.5rem;
+    gap: 0.5rem;    
 
     justify-content: center;
 }
 
+
+
 @media (min-width: 960px){
     
     main {background: url(images/crachaLilas.svg) no-repeat center top;
-
+      
     }
 }
