@@ -55,7 +55,7 @@ main{
 .avatar > span {
         position: absolute;
         top: -15px;
-        margin-right: 10px;
+        left: 7rem;
         z-index: 1; /*move a camada*/
         animation-name: animacao;
         animation-duration: ;
